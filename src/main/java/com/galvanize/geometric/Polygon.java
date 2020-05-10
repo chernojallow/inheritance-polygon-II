@@ -20,19 +20,9 @@ public class Polygon {
             sum += sideLengths[i];
         }
         return sum;
-    }
+            }
 
-
-//    public static void main (String [] args){
-//
-//        Polygon polygon = new Polygon();
-//        System.out.println(polygon.perimeter());
-//
-//        int s [] = new int[20];
-//        Triangle  triangle = new Triangle(s) ;
-//           System.out.println(triangle.area());
-//     }
-}
+         }
 
 
      class Triangle extends Polygon {
@@ -72,8 +62,9 @@ public class Polygon {
             public double area(){
                 return (Math.sqrt(3)/4)*(sideLengths[1] *sideLengths[1]);
 
-            }
-        }
+                }
+
+           }
 
          class Scalene extends  Polygon {
 
